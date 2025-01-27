@@ -8,7 +8,7 @@ from flask_cors import CORS
 import google.generativeai as genai
 
 # Directly assign the API key
-api_key = "AIzaSyAnSRxeMuWV5lCU1Uv2-v-efDOl3Wz_PEU"  
+api_key = ""  
 os.environ["GOOGLE_API_KEY"] = api_key 
 
 genai.configure(api_key=api_key)  # Pass the API key directly to the configuration
